@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stíluslap.css">
-    <title>Document</title>
+    <title>Állathangok</title>
 </head>
 <body>
+    <h1>Állathangok</h1>
     <div id="linkek">
         <div class="keret">
         <img src="képek/csibe.jpg" class="kepek" onclick='lejatszas("csibe")'>
@@ -25,6 +26,23 @@
         <img src="képek/veréb.jpg" class="kepek"  onclick='lejatszas("veréb")'>
         <p>Veréb</p>
         </div>
+        <div class="keret">
+        <img src="képek/jégmadár.jpg" class="kepek"  onclick='lejatszas("jégmadár")'>
+        <p>Jégmadár</p>
+        </div>
+        <div class="keret">
+        <img src="képek/szarka.jpg" class="kepek"  onclick='lejatszas("szarka")'>
+        <p>Szarka</p>
+        </div>
+        <div class="keret">
+        <img src="képek/gém.jpg" class="kepek"  onclick='lejatszas("gém")'>
+        <p>Gém</p>
+        </div>
+        <div class="keret">
+        <img src="képek/kékszajkó.jpg" class="kepek"  onclick='lejatszas("kékszajkó")'>
+        <p>Kékszajkó</p>
+        </div>
+
         <div id=hang><audio controls></audio></div>
     
         <input type=button    onClick=' lejatszas("csend")   '  value='Némítás'>
@@ -37,7 +55,11 @@
         if( x=="csibe" )   hang.innerHTML = "<audio controls autoplay><source src='./állathangok2/csibe.mp3' type='audio/mpeg'></audio>"  
         if( x=="galamb"  )   hang.innerHTML = "<audio controls autoplay><source src='./állathangok2/galamb.mp3'    type='audio/mpeg'></audio>"  
         if( x=="sas"   )   hang.innerHTML = "<audio controls autoplay><source src='./állathangok2/sas.mp3'      type='audio/mpeg'></audio>"  
-        if( x=="veréb"   )   hang.innerHTML = "<audio controls autoplay><source src='./állathangok2/veréb.mp3'      type='audio/mpeg'></audio>"  
+        if( x=="veréb"   )   hang.innerHTML = "<audio controls autoplay><source src='./állathangok2/veréb.mp3'      type='audio/mpeg'></audio>"
+        if( x=="jégmadár" )   hang.innerHTML = "<audio controls autoplay><source src='./állathangok2/jégmadár.mp3' type='audio/mpeg'></audio>"  
+        if( x=="szarka"  )   hang.innerHTML = "<audio controls autoplay><source src='./állathangok2/szarka.mp3'    type='audio/mpeg'></audio>"  
+        if( x=="gém"   )   hang.innerHTML = "<audio controls autoplay><source src='./állathangok2/gém.mp3'      type='audio/mpeg'></audio>"  
+        if( x=="kékszajkó"   )   hang.innerHTML = "<audio controls autoplay><source src='./állathangok2/kékszajkó.mp3'      type='audio/mpeg'></audio>"    
     
         if( x=="csend"   )   hang.innerHTML = "<audio controls></audio>"
     

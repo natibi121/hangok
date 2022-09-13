@@ -1,6 +1,9 @@
 body{
     width: 800px;
-    margin: auto;
+   
+}
+h1{
+    text-align: center;
 }
 .kepek{
     max-width: 400px;
@@ -9,10 +12,12 @@ body{
     border-radius: 12px;
 }
 #linkek{
-    margin: 36px 48px;
+    margin: 0 auto;
     padding: 16px 160px 16px 36px;
     text-align: center;
     line-height: 32px;
+    
+   
 }
 div#linkek p{
     font-weight: bold;
