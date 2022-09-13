@@ -1,0 +1,32 @@
+.kepek{
+    max-width: 400px;
+    max-height: 600px;
+    border: solid 2px #008;
+    border-radius: 12px;
+}
+#linkek{
+    margin: 36px 48px;
+    padding: 16px 160px 16px 36px;
+    text-align: center;
+    line-height: 32px;
+}
+div#linkek p{
+    font-weight: bold;
+}
+div#linkek span:hover
+{
+    color: #00F;
+    cursor: pointer;
+}
+div#hang
+{
+    display: none;
+}
+.keret{
+    border: solid 2px #008;
+    border-radius: 12px;
+    width: 400px;
+    background-color: #008;
+    color: white;
+    margin: 30px;
+}
